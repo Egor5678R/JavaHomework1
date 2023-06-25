@@ -1,0 +1,8 @@
+Iteration 0 swap 1 and 4: 2 1 4 5 3 9 6 8 7 
+Iteration 1 swap 3 and 5: 2 1 4 3 5 9 6 8 7 
+Iteration 2 swap 6 and 9: 2 1 4 3 5 6 9 8 7 
+Iteration 3 swap 8 and 9: 2 1 4 3 5 6 8 9 7 
+Iteration 4 swap 7 and 9: 2 1 4 3 5 6 8 7 9 
+Iteration 5 swap 1 and 2: 1 2 4 3 5 6 8 7 9 
+Iteration 6 swap 3 and 4: 1 2 3 4 5 6 8 7 9 
+Iteration 7 swap 7 and 8: 1 2 3 4 5 6 7 8 9 
