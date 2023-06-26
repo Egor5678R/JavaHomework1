@@ -40,17 +40,17 @@ public class HW2 {
         try {
             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("log.txt"));
 
-            for(int i=0; i<arr.length-1; i++) {
-                for(int j=0; j<arr.length-i-1; j++) {
+            for(int i = 0; i<arr.length - 1; i++) {
+                for(int j = 0; j < arr.length - i - 1; j++) {
 
-                    if(arr[j] > arr[j+1]) {
+                    if(arr[j] > arr[j + 1]) {
                         int temp = arr[j];
-                        arr[j] = arr[j+1];
-                        arr[j+1] = temp;
+                        arr[j] = arr[j + 1];
+                        arr[j + 1] = temp;
 
                         bufferedWriter.write("Iteration %d swap %d and %d: ".formatted(count++, arr[j], arr[j + 1]));
 
-                        for(int k=0; k<arr.length; k++) {
+                        for(int k = 0; k < arr.length; k++) {
                             bufferedWriter.write(arr[k] + " ");
                         }
                         bufferedWriter.newLine();
